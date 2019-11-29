@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  app:
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./app:/go/src/app
